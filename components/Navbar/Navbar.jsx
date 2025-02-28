@@ -83,7 +83,7 @@ const Navbar = () => {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -20 }}
                         transition={{ duration: 0.3, ease: "easeInOut" }}
-                        className="absolute top-16 left-0 w-full bg-white/5 backdrop-blur-lg text-white p-5 shadow-lg md:hidden"
+                        className="absolute top-16 left-0 z-50 w-full bg-white/20  backdrop-blur-lg text-white p-5 shadow-lg md:hidden"
                     >
                         <ul className="flex flex-col gap-5 text-lg">
                             <li>
